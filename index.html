@@ -36,7 +36,7 @@
             <div class="slides">
                 <section>
                     <section>
-                        <h1>Piloting Vagrant at @aiaio</h1>
+                        <h1>Piloting Vagrant<br>at Ai</h1>
                         <img src="img/vagrantguy.png" alt="Vagrant Guy">
                     </section>
                     <section>
@@ -79,8 +79,8 @@
                 <section>
                     <section>
                         <h2>How?</h2>
+                        <p align="left">Virtual Machines:</p>
                         <ul>
-                            <li>Virtual Machines</li>
                             <li>That match the production environment</li>
                             <li>That setup themselves</li>
                             <li>With easy to remember git-like commands</li>
@@ -92,8 +92,9 @@
                             <li>Consistent development environments</li>
                             <li>Dependency and configuration encapsulation</li>
                             <li>Environment distribution</li>
-                            <li>All of this saves time, money, and frustration</li>
                         </ul>
+                        <br><br>
+                        <p>All of this saves time, money, and frustration</p>
                     </section>
                 </section>
                 <section>
@@ -117,8 +118,9 @@
 $ cd vagrant_guide
 $ vagrant init
 </code></pre>
-                            <li>This can be done to new or existing projects</li>
                         </ul>
+                        <br><br>
+                        <p>This can be done to new or existing projects</p>
                     </section>
                     <section>
                         <h2>Web Project Setup</h2>
@@ -131,14 +133,23 @@ $ vagrant init
                     <section>
                         <h2>Boxes</h2>
                         <ul>
-                            <li>Get a base box from vagrantup.com</li>
-                            <li>Get a pre-configured box from Ai's vagrant drive</li>
-                            <li>Can pull from local/networked filesystem or over HTTP</li>
-                            <li>Bare bones installation of Ubuntu Lucid (10.04) 32-bit:</li>
-                            <pre><code>$ vagrant box add lucid32 http://files.vagrantup.com/lucid32.box</code></pre>
-                            <li>The lucid32 box can now be used by multiple projects</li>
-                            <li>Think: Ai's "magento box", or "wordpress box", or could just be project specific</li>
+                            <li>What?
+                                <ul>
+                                    <li>Vagrant Boxes are a package around a virtual machine that Vagrant can use</li>
+                                    <li>Can pull from local/networked filesystem or over HTTP</li>
+                                </ul>
+                            </li>
+                            <li>Where?
+                                <ul>
+                                    <li>Get a pre-configured box from Ai's vagrant drive</li>
+                                    <li>Get a base box from vagrantup.com:</li>
+                                    <pre><code>$ vagrant box add lucid32 http://files.vagrantup.com/lucid32.box</code></pre>
+                                    <li>If needed, use the lucid32 box with multiple projects</li>
+                                </ul>
+                            </li>
                         </ul>
+                        <br><br>
+                        <p>Think: Ai's "magento box", or "wordpress box", or could just be project specific</p>
                     </section>
                     <section>
                         <h2>Boxes (cont'd)</h2>
@@ -207,7 +218,7 @@ end</code></pre>
                 </section>
                 <section>
                     <section>
-                        <h2>How can this play at Ai?</h2>
+                        <h2>How can Vagrant work at Ai?</h2>
                         <ul>
                             <li>2 projects in pilot
                                 <ul>
