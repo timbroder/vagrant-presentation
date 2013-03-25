@@ -38,6 +38,7 @@
                     <section>
                         <h1>Piloting Vagrant<br>at Ai</h1>
                         <img src="img/vagrantguy.png" alt="Vagrant Guy">
+                        <p><a href="https://twitter.com/timothybroder">@timothybroder</a></p>
                     </section>
                     <section>
                         <h1>We Will Cover</h1>
@@ -99,36 +100,15 @@
                 </section>
                 <section>
                     <section>
-                        <h2>Tutorial</h2>
+                        <h2><span class="strike">Tutorial</span> Technical Overview</h2>
                         <img src="img/tumblr_inline_mhetfic6sy1qz4rgp.gif" alt="yay">
-                    </section>
+                     </section>
                     <section>
                         <h2>Install</h2>
                         <ul>
                             <li><a href="http://downloads.vagrantup.com/">Vagrant</a></li>
                             <li><a href="https://www.virtualbox.org/wiki/Downloads">Virtual Box</a></li>
                         </li>
-                    </section>
-                    <section>
-                        <h2>Vagrant Project Setup</h2>
-                        <ul>
-                            <li>Mark root (project) directory</li>
-                            <li>Setup basic required files</li>
-                            <pre><code>$ mkdir vagrant_guide
-$ cd vagrant_guide
-$ vagrant init
-</code></pre>
-                        </ul>
-                        <br><br>
-                        <p>This can be done to new or existing projects</p>
-                    </section>
-                    <section>
-                        <h2>Web Project Setup</h2>
-                        <ul>
-                            <li>Create some content</li>
-                            <li>We'll get into libraries, db, and servers later</li>
-                        </ul>
-                            <pre><code>$ echo "Hello from a Vagrant VM" > index.html</code></pre>
                     </section>
                     <section>
                         <h2>Boxes</h2>
@@ -152,12 +132,17 @@ $ vagrant init
                         <p>Think: Ai's "magento box", or "wordpress box", or could just be project specific</p>
                     </section>
                     <section>
-                        <h2>Boxes (cont'd)</h2>
+                        <h2>Vagrant Project Setup</h2>
                         <ul>
-                            <li>Remove (delete) a box:</li>
+                            <li>Mark root (project) directory</li>
+                            <li>Setup basic required files</li>
+                            <pre><code>$ mkdir vagrant_guide
+$ cd vagrant_guide
+$ vagrant init
+</code></pre>
                         </ul>
-                        <pre><code>$ vagrant box remove lucid32</code></pre>
-                        <p><img src="img/1313574161997.jpg" alt="chuck"></p>
+                        <br><br>
+                        <p>This can be done to new or existing projects</p>
                     </section>
                     <section>
                         <h2>Boxes and VagrantFile</h2>
@@ -172,15 +157,12 @@ end</code></pre>
                     </ul>
                     </section>
                     <section>
-                        <h2>Getting into the Box</h2>
+                        <h2>Boxes (cont'd)</h2>
                         <ul>
-                            <li>vagrant ssh</li>
-                            <li>Quick command on mac<br> putty key <a href="http://docs.vagrantup.com/v1/docs/getting-started/ssh.html">config</a> on windows</li>
-                            <li>Project files mapped to /vagrant</li>
-                            <li>root access</li>
+                            <li>Remove (delete) a box:</li>
                         </ul>
-                        <p><img src="img/zoolander_imac_1.jpg" alt="the files are in the computer"></p>
-
+                        <pre><code>$ vagrant box remove lucid32</code></pre>
+                        <p><img src="img/1313574161997.jpg" alt="chuck"></p>
                     </section>
                     <section>
                         <h2>Dev Locally, Run on "Prodish"</h2>
@@ -194,6 +176,17 @@ end</code></pre>
                             <li>Profit</li>
                         </ol>
                         <p><img src="img/2013-03-07_1732.png" alt="profit"></p>
+                    </section>
+                    <section>
+                        <h2>Getting into the Box</h2>
+                        <ul>
+                            <li>vagrant ssh</li>
+                            <li>Quick command on mac<br> putty key <a href="http://docs.vagrantup.com/v1/docs/getting-started/ssh.html">config</a> on windows</li>
+                            <li>Project files mapped to /vagrant</li>
+                            <li>root access</li>
+                        </ul>
+                        <p><img src="img/zoolander_imac_1.jpg" alt="the files are in the computer"></p>
+
                     </section>
                     <section>
                         <h2>Setting up complex boxes</h2>
@@ -217,30 +210,38 @@ end</code></pre>
                     </section>
                 </section>
                 <section>
-                    <section>
-                        <h2>How can Vagrant work at Ai?</h2>
-                        <ul>
-                            <li>2 projects in pilot
-                                <ul>
-                                <li>NuevoWorld</li>
-                                <li>Internet Retailer</li>
-                                </ul>
-                            </li>
+                    <h2>How can Vagrant work at Ai?</h2>
+                    <ul>
+                        <li>2 projects in pilot
+                            <ul>
+                            <li>NuevoWorld</li>
+                            <li>Internet Retailer</li>
+                            </ul>
+                        </li>
 
-                            <li>Boxes setup manually
-                                <ul>
-                                    <li>Should move to provisioning</li>
-                                </ul>
-                            </li>
-                            <li>Where do we want to go?
-                                <ul>
-                                    <li>Keep going?</li>
-                                    <li>Standardize on ports</li>
-                                    <li>AWS provider coming in Vagrant 1.1!!!!!!</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </section>
+                        <li>Boxes were setup manually
+                            <ul>
+                                <li>Should move to provisioning</li>
+                            </ul>
+                        </li>
+                        <li>Where do we want to go?
+                            <ul>
+                                <li>Keep going?</li>
+                                <li>Standardize on ports</li>
+                                <li>AWS provider coming in Vagrant 1.1!!!!!!</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Resources</h2>
+                    <ul>
+                        <li><a href="http://docs.vagrantup.com/v2/getting-started/index.html">Getting Started Guide</a></li>
+                        <li><a href="http://docs.vagrantup.com/v2/">Vagrant Docs</a></li>
+                        <li><a href="http://www.vagrantup.com/">vagrantup.com</a></li>
+                        <li><a href="http://www.hashicorp.com/">HashiCorp</a> (makes Vagrant)</li>
+                        <li><a href="https://twitter.com/mitchellh">@mitchellh</a> (co-creator, runs HashiCorp)</li>
+                        <li><a href="https://twitter.com/johnbender">@johnbender</a> (co-creator, former <a href="https://twitter.com/aiaio">@aiaio</a>)</li>
                 </section>
             </div>
 
@@ -273,6 +274,21 @@ end</code></pre>
             });
 
         </script>
+
+        <style>
+        span.strike {
+            position: relative;
+            display: inline-block;
+        }
+        span.strike:after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 0.3em;
+            background: #f00;
+            top: 0.28em;
+        }
 
     </body>
 </html>
