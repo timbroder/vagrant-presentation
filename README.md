@@ -1,7 +1,7 @@
 ##Slides##
 
-- Slideshare: [http://www.slideshare.net/broderboy/vagrant-magento-mm-ny-v11](http://www.slideshare.net/broderboy/vagrant-magento-mm-ny-v11)
-- Older Slides: Goes more in depth on setup. [http://broderboy.github.io/vagrant-presentation/#/](http://broderboy.github.io/vagrant-presentation/#/)
+- Slideshare: [http://www.slideshare.net/broderboy/vagrant-magento-mm-ny-v11](http://slidesha.re/ZFZFXo)
+- Older Slides: Goes more in depth on setup. [http://broderboy.github.io/vagrant-presentation/#/](http://bit.ly/Y13JjQ)
 
 ##Vagrant##
 
