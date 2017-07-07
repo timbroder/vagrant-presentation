@@ -1,29 +1,29 @@
-##Slides##
+## Slides
 
 - Slideshare: [http://www.slideshare.net/broderboy/vagrant-magento-mm-ny-v11](http://slidesha.re/ZFZFXo)
 
-##Vagrant##
+## Vagrant
 
 - [VagrantUp.com](http://www.vagrantup.com/)
 - [VagrantCloud](https://vagrantcloud.com/boxes) - Discover Boxes and Vagrant Share
 
-##Virtual Machines##
+## Virtual Machines
 
 - [VirtualBox](https://www.virtualbox.org/)
 - [Vmware Fusion](http://www.vmware.com/products/fusion)
 
-##Provisioning##
+## Provisioning
 - [Chef](https://www.getchef.com/)
 - [Puppet](http://puppetlabs.com/)
 - [Docker](https://www.docker.com/)
 - [Ansible](http://www.ansible.com/home)
 - [Salt](http://www.saltstack.com/)
 
-##Tools##
+## Tools
 - [Packer](http://www.packer.io/) - Create multiple machine images in paralel
 - [Fabric](http://www.fabfile.org/) - Command line over SSH
 
-##Articles / Tutorials##
+## Articles / Tutorials
 - [Setup a Django VM with Vagrant, Virtualbox, and Chef](http://blog.smalleycreative.com/tutorials/setup-a-django-vm-with-vagrant-virtualbox-and-chef/)
 - [Automated Pre-Provisioned Development Environments](https://www.hashicorp.com/blog/automated-pre-provisioned-development-environments.html)
 - [How to Create and Share a Vagrant Base Box](http://www.sitepoint.com/create-share-vagrant-base-box/)
